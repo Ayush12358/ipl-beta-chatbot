@@ -9,7 +9,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Default model to use if not specified otherwise
-DEFAULT_MODEL = "google/gemma-3-27b-it:scaleway"
+# DEFAULT_MODEL = "google/gemma-3-27b-it:scaleway"
+DEFAULT_MODEL = "openai/gpt-oss-120b:novita"
 # DEFAULT_MODEL = "zai-org/GLM-4.7-Flash:novita"
 
 # Model configuration for each agent

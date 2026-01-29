@@ -56,3 +56,4 @@ data/chatbot_history.db
 # Large Data (Optional - uncomment if you don't want to commit these)
 Match Data JSON/
 # data/matches.parquet
+chatbot.ipynb

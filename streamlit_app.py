@@ -554,7 +554,7 @@ def render_footer():
             <a href="https://x.com/taniiishh" target="_blank" style="color: #a29bfe;">𝕏 @taniiishh</a>
         </p>
         <p style="margin-top: 0.5rem; font-size: 0.75rem;">
-            Data sourced from Cricsheet • Currently using Gemma 3 (27b) via HuggingFace
+            Data sourced from Cricsheet • Currently using gpt-oss-120b via HuggingFace
         </p>
     </div>
     ''', unsafe_allow_html=True)
