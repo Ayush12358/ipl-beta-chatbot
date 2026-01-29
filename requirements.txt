@@ -1,0 +1,10 @@
+streamlit
+pandas
+openai
+python-dotenv
+numpy
+jupyter
+ipykernel
+pyarrow
+supabase
+rapidfuzz
