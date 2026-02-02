@@ -10,7 +10,13 @@ load_dotenv()
 
 # Default model to use if not specified otherwise
 # DEFAULT_MODEL = "google/gemma-3-27b-it:scaleway"
-DEFAULT_MODEL = "openai/gpt-oss-120b:novita"
+_provider = os.getenv("LLM_PROVIDER", "").strip().lower()
+_model_name = os.getenv("MODEL_NAME", "").strip()
+
+if not _model_name:
+    _model_name = "openai/gpt-oss-120b:novita"
+
+DEFAULT_MODEL = _model_name
 # DEFAULT_MODEL = "zai-org/GLM-4.7-Flash:novita"
 
 # Model configuration for each agent

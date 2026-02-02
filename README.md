@@ -56,7 +56,9 @@ Create a `.env` file with the following variables:
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `HF_TOKEN` | HuggingFace access token for LLM inference ([Get one here](https://huggingface.co/settings/tokens)) | ✅ Yes |
+| `HF_API_KEY` | HuggingFace access token for LLM inference ([Get one here](https://huggingface.co/settings/tokens)) | ✅ Yes (unless using Gemini) |
+| `GEMINI_API_KEY` | Google Gemini API key ([Get one here](https://aistudio.google.com/app/apikey)) | ✅ Yes (if using Gemini) |
+| `LLM_PROVIDER` | Set to `gemini` to use Gemini by default | ❌ No |
 
 ## 📁 Project Structure
 

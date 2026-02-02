@@ -34,6 +34,8 @@ We have already updated the code to support switching between SQLite (local) and
    # .streamlit/secrets.toml format
    DATABASE_URL = "postgresql://postgres:password@host:5432/postgres"
    HF_API_KEY = "your-huggingface-key"
+   GEMINI_API_KEY = "your-gemini-key" # Optional if using Gemini
+   LLM_PROVIDER = "gemini" # Optional: set to use Gemini by default
    BRAINTRUST_API_KEY = "your-braintrust-key"
    ```
 
